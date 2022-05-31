@@ -67,7 +67,7 @@
         <form action="{{ route('tags.store') }}" method="post" id="form-tags-update-0">
             @csrf
         </form>
-        <input type="text" class="tag-modal-text" form="form-tags-update-0" name="name" id="input-0" autocomplete="off">
+        <input type="text" class="tag-modal-text" form="form-tags-update-0" name="name" id="input-0" required autocomplete="off">
         <div class="tag-modal-btn-area">
             <div class="tag-modal-btn-area-dummy"></div>
             <div class="tag-modal-btn-area-btns">
@@ -88,7 +88,7 @@
                 @csrf
                 @method('DELETE')
             </form>
-            <input type="text" class="tag-modal-text" form="form-tags-update-{{ $tag->id }}" name="name" id="input-{{ $tag->id }}" value="{{ $tag->name }}" autocomplete="off">
+            <input type="text" class="tag-modal-text" form="form-tags-update-{{ $tag->id }}" name="name" id="input-{{ $tag->id }}" value="{{ $tag->name }}" required autocomplete="off">
             <div class="tag-modal-btn-area">
                 <div class="tag-modal-btn-area-dummy"></div>
                 <div class="tag-modal-btn-area-btns">
@@ -152,7 +152,7 @@
             });
         }
 
-        const re = /^[^\p{Z}]+$/u;
+        const re = /^\S+$/u;
         for (let i = 0; i < tagsId.length; i++) {
             form[i].addEventListener('submit', e => {
                 console.log(1);
