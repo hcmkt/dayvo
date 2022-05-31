@@ -12,7 +12,7 @@ $neutral-800: #262626;
 $neutral-900: #171717;
 
 @mixin section {
-    padding-bottom: 1.5rem;
+    padding-bottom: 1.75rem;
 }
 
 @mixin section-header {
@@ -207,8 +207,9 @@ body {
     }
     &-content {
         &-body {
-            padding: 0.5rem 0 1rem 0;
+            padding: 0.75rem 0 1.5rem 0;
             overflow-wrap: break-word;
+            line-height: 1.8rem;
         }
         &-tags {
             @include tags;
@@ -323,7 +324,7 @@ body {
     }
     &-content {
         &-tags {
-            padding-top: 0.125rem;
+            padding-top: 0.25rem;
             &-tag {
                 display: flex;
                 align-items: center;
@@ -356,7 +357,7 @@ body {
     }
     &-content {
         &-accounts {
-            padding-top: 0.125rem;
+            padding-top: 0.25rem;
             &-account {
                 display: flex;
                 align-items: center;
