@@ -18,7 +18,7 @@
 - オプションを用いた日記の検索
 - Googleアカウントを用いた認証
 - 連携するGoogleアカウントの追加、削除
-- （dropboxへのDBのバックアップ）
+- （DropboxへのDBのバックアップ）
 
 ## 使用技術
 
@@ -31,8 +31,8 @@
 ### インフラ
 - Docker / Docker Compose
 - nginx
-- mysql
-- Conoha VPS
+- MySQL
+- ConoHa VPS
 
 ## DB設計
 
