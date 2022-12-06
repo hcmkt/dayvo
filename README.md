@@ -1,7 +1,7 @@
-<p align="center"><a href="https://dayvo.me" target="_blank"><img src="src/public/img/logo.svg" width=300px></a></p>
+<p align="center"><a href="https://dayvo.hcmkt.dev" target="_blank"><img src="src/public/img/logo.svg" width=300px></a></p>
 
 ## Dayvo
-[Dayvo](https://dayvo.me)はシンプルな日記サービスです。
+[Dayvo](https://dayvo.hcmkt.dev)はシンプルな日記サービスです。
 
 ## 主な機能
 日記を書く以外にも以下のことができます。
