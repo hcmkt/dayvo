@@ -29,7 +29,7 @@
 - PHP / Laravel
 
 ### インフラ
-- Docker / Docker Compose
+- dokku
 - nginx
 - MySQL
 - ConoHa VPS
